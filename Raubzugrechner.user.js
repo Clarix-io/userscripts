@@ -20,7 +20,7 @@
         var result = Calculate();
         $('#Result').remove();
         $('#ShowInPopup').remove();
-        $('<div id="Result" style="margin-top: 0.5em";>Effizienteste Verteilung:<br><textarea name="TroopResult" cols="40" rows="3" disabled>' + result.r1 + '\r\n' + result.r2 + '\r\n' + result.r3 + '\r\n' + result.r4 + '</textarea></div><div class="action-container"><center><a href="#" class="btn btn-default" id="ShowInPopup" style="margin-top: 0.5em";>In neuem Fenster</a></center></div>').insertAfter('#CalcTroopsTime');
+        $('<div id="Result" style="margin-top: 0.5em";>Effizienteste Verteilung:<br><textarea name="TroopResult" cols="50" rows="3" disabled>' + result.r1 + '\r\n' + result.r2 + '\r\n' + result.r3 + '\r\n' + result.r4 + '</textarea></div><div class="action-container"><center><a href="#" class="btn btn-default" id="ShowInPopup" style="margin-top: 0.5em";>In neuem Fenster</a></center></div>').insertAfter('#CalcTroopsTime');
         $('#ShowInPopup').click(() => {
             var w = window.open();
             var html = $("#Result").html();
@@ -32,7 +32,7 @@
         var result = CalculateForTime();
         $('#Result').remove();
         $('#ShowInPopup').remove();
-        $('<div id="Result" style="margin-top: 0.5em";>Zeitoptimierte Verteilung:<br><textarea name="TroopResult" cols="40" rows="3" disabled>' + result.r1 + '\r\n' + result.r2 + '\r\n' + result.r3 + '\r\n' + result.r4 + '</textarea></div><div class="action-container"><center><a href="#" class="btn btn-default" id="ShowInPopup" style="margin-top: 0.5em";>In neuem Fenster</a></center></div>').insertAfter('#CalcTroopsTime');
+        $('<div id="Result" style="margin-top: 0.5em";>Zeitoptimierte Verteilung:<br><textarea name="TroopResult" cols="50" rows="3" disabled>' + result.r1 + '\r\n' + result.r2 + '\r\n' + result.r3 + '\r\n' + result.r4 + '</textarea></div><div class="action-container"><center><a href="#" class="btn btn-default" id="ShowInPopup" style="margin-top: 0.5em";>In neuem Fenster</a></center></div>').insertAfter('#CalcTroopsTime');
         $('#ShowInPopup').click(() => {
             var w = window.open();
             var html = $("#Result").html();
