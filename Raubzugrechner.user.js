@@ -42,6 +42,7 @@
     });
 
     function Calculate() {
+        // todo: rename func
         var troops = [];
         var maxCapacity = 0;
         var stage1 = 0, stage2 = 0, stage3 = 0;
