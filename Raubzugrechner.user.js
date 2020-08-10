@@ -142,9 +142,9 @@
 
         var result = [];
         result.r1 = "Stufe 1: " + parseInt(troops.spear * stage1) + " | " + parseInt(troops.sword * stage1) + " | " + parseInt(troops.axe * stage1) + " | " + parseInt(troops.archer * stage1) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.marcher * stage1) + " | " + parseInt(troops.heavy * stage1);
-        result.r2 = "Stufe 2: " + parseInt(troops.spear * stage2) + " | " + parseInt(troops.sword * stage2) + " | " + parseInt(troops.axe * stage2) + " | " + parseInt(troops.archer * stage2) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.marcher * stage1) + " | " + parseInt(troops.heavy * stage2);
-        result.r3 = "Stufe 3: " + parseInt(troops.spear * stage3) + " | " + parseInt(troops.sword * stage3) + " | " + parseInt(troops.axe * stage3) + " | " + parseInt(troops.archer * stage3) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.marcher * stage1) + " | " + parseInt(troops.heavy * stage3);
-        result.r4 = "Stufe 4: " + parseInt(troops.spear * stage4) + " | " + parseInt(troops.sword * stage4) + " | " + parseInt(troops.axe * stage4) + " | " + parseInt(troops.archer * stage4) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.marcher * stage1) + " | " + parseInt(troops.heavy * stage4);
+        result.r2 = "Stufe 2: " + parseInt(troops.spear * stage2) + " | " + parseInt(troops.sword * stage2) + " | " + parseInt(troops.axe * stage2) + " | " + parseInt(troops.archer * stage2) + " | " + parseInt(troops.light * stage2) + " | " + parseInt(troops.marcher * stage2) + " | " + parseInt(troops.heavy * stage2);
+        result.r3 = "Stufe 3: " + parseInt(troops.spear * stage3) + " | " + parseInt(troops.sword * stage3) + " | " + parseInt(troops.axe * stage3) + " | " + parseInt(troops.archer * stage3) + " | " + parseInt(troops.light * stage3) + " | " + parseInt(troops.marcher * stage3) + " | " + parseInt(troops.heavy * stage3);
+        result.r4 = "Stufe 4: " + parseInt(troops.spear * stage4) + " | " + parseInt(troops.sword * stage4) + " | " + parseInt(troops.axe * stage4) + " | " + parseInt(troops.archer * stage4) + " | " + parseInt(troops.light * stage4) + " | " + parseInt(troops.marcher * stage4) + " | " + parseInt(troops.heavy * stage4);
 
 //         console.log('ende: ' + end);
 
