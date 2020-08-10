@@ -59,6 +59,7 @@
         troops.knight = countUnits('knight')
         if(debug){console.log(troops)}
 
+        // Needs to be adapted with marcher, archer etc. for eff run!
         maxCapacity = troops.spear * 25 + troops.sword * 15 + troops.axe * 10 + troops.light * 80 + troops.heavy * 50;
         if(debug){console.log("Gesamtkapazität: " + maxCapacity);}
         var a1 = 0;
@@ -140,10 +141,10 @@
         if(debug){console.log(troops)}
 
         var result = [];
-        result.r1 = "Stufe 1: " + parseInt(troops.spear * stage1) + " | " + parseInt(troops.sword * stage1) + " | " + parseInt(troops.axe * stage1) + " | " + parseInt(troops.archer * stage1) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.heavy * stage1);
-        result.r2 = "Stufe 2: " + parseInt(troops.spear * stage2) + " | " + parseInt(troops.sword * stage2) + " | " + parseInt(troops.axe * stage2) + " | " + parseInt(troops.archer * stage2) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.heavy * stage2);
-        result.r3 = "Stufe 3: " + parseInt(troops.spear * stage3) + " | " + parseInt(troops.sword * stage3) + " | " + parseInt(troops.axe * stage3) + " | " + parseInt(troops.archer * stage3) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.heavy * stage3);
-        result.r4 = "Stufe 4: " + parseInt(troops.spear * stage4) + " | " + parseInt(troops.sword * stage4) + " | " + parseInt(troops.axe * stage4) + " | " + parseInt(troops.archer * stage4) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.heavy * stage4);
+        result.r1 = "Stufe 1: " + parseInt(troops.spear * stage1) + " | " + parseInt(troops.sword * stage1) + " | " + parseInt(troops.axe * stage1) + " | " + parseInt(troops.archer * stage1) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.marcher * stage1) + " | " + parseInt(troops.heavy * stage1);
+        result.r2 = "Stufe 2: " + parseInt(troops.spear * stage2) + " | " + parseInt(troops.sword * stage2) + " | " + parseInt(troops.axe * stage2) + " | " + parseInt(troops.archer * stage2) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.marcher * stage1) + " | " + parseInt(troops.heavy * stage2);
+        result.r3 = "Stufe 3: " + parseInt(troops.spear * stage3) + " | " + parseInt(troops.sword * stage3) + " | " + parseInt(troops.axe * stage3) + " | " + parseInt(troops.archer * stage3) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.marcher * stage1) + " | " + parseInt(troops.heavy * stage3);
+        result.r4 = "Stufe 4: " + parseInt(troops.spear * stage4) + " | " + parseInt(troops.sword * stage4) + " | " + parseInt(troops.axe * stage4) + " | " + parseInt(troops.archer * stage4) + " | " + parseInt(troops.light * stage1) + " | " + parseInt(troops.marcher * stage1) + " | " + parseInt(troops.heavy * stage4);
 
 //         console.log('ende: ' + end);
 
