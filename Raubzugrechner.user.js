@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Raubzugrechner
 // @namespace    https://clarix.io
-// @version      0.4
+// @version      0.5
 // @description  try to take over the world!
 // @author       Clarix
 // @updateURL    https://github.com/Clarix-io/userscripts/raw/master/Raubzugrechner.user.js
